@@ -1,6 +1,6 @@
 ## Parkcore : About
 
-An android web-view application built on top of Node.JS [(Node.JS App)](https://c9.io/tanayv/parkcore/)to simplify the parking situation for Detroit residents by crowdsourcing available parking locations to ease huge wait times - a known problem.
+An android web-view application built on top of Node.JS [(https://c9.io/tanayv/parkcore/)](https://c9.io/tanayv/parkcore/) to simplify the parking situation for Detroit residents by crowdsourcing available parking locations to ease huge wait times - a known problem.
 Built in partnership with the [Data Driven Detroit](http://datadrivendetroit.org/) initiative.
 
 ### Usage
