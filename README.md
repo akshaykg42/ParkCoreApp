@@ -1,6 +1,6 @@
 ## Parkcore : About
 
-An android web-view application built on top of Node.JS [(https://github.com/bharatkashyap/parkcore)](https://github.com/bharatkashyap/parkcore) to simplify the parking situation for Detroit residents by crowdsourcing available parking locations to ease huge wait times - a known problem.
+An android web-view application built on top of Node.JS [(Github)](https://github.com/bharatkashyap/parkcore) to simplify the parking situation for Detroit residents by crowdsourcing available parking locations to ease huge wait times - a known problem.
 Built in partnership with the [Data Driven Detroit](http://datadrivendetroit.org/) initiative.
 
 ### Usage
