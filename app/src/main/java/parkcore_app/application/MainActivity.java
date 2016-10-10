@@ -32,24 +32,13 @@ public class MainActivity extends Activity {
 
         mWebView = (WebView) findViewById(R.id.activity_main_webview);
 
-        // Force links and redirects to open in the WebView instead of in a browser
-        //mWebView.setWebViewClient(new WebViewClient());
-
         // Enable Javascript
         WebSettings webSettings = mWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
 
-        // Stop local links and redirects from opening in browser instead of WebView
-        //mWebView.setWebViewClient(new MyAppWebViewClient());
         mWebView.setWebViewClient(new GeoWebViewClient());
         mWebView.getSettings().setGeolocationEnabled(true);
         mWebView.setWebChromeClient(new GeoWebChromeClient());
-
-        // Use remote resource
-        //mWebView.loadUrl("https://parkcore.tanayv.c9users.io:8081/location2.html");
-
-        // Use local resource
-        // mWebView.loadUrl("file:///android_asset/www/index.html");
 
         mWebView.post(new Runnable() {
             @Override
